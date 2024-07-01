@@ -1,0 +1,43 @@
+.input-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 64px;
+
+  p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+
+  .in-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    input {
+      background-color: white;
+      padding: 22px;
+      width: 504px;
+      margin-right: 2px;
+      font-size: 16px;
+    }
+
+    button {
+      width: 208px;
+      padding: 14px 22px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 30px;
+      font-weight: 700;
+      background-color: red;
+      transition: opacity .2s ease-in-out;
+
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+}
