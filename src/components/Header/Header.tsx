@@ -1,7 +1,7 @@
 import './Header.scss'
 import logo from '../../assets/logo.png'
 import profile from '../../assets/profile_img.png'
-import searchIcon from '../../assets/search_icon.svg'
+// import searchIcon from '../../assets/search_icon.svg'
 import caret from '../../assets/caret_icon.svg'
 import bell from '../../assets/bell_icon.svg'
 import { observer } from 'mobx-react-lite'
@@ -45,7 +45,7 @@ const Header = observer(() => {
       </div >
 
       <div className="headerRight">
-        <img src={searchIcon} alt="Search" />
+        {/* <img src={searchIcon} alt="Search" /> */}
         <p>Kids</p>
         <img src={bell} alt="Bell" />
 
