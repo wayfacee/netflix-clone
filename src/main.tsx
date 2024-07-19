@@ -4,6 +4,7 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import { initializeApp } from "firebase/app";
 
+// @ts-ignore
 const firebaseConfig = {
   apiKey: "AIzaSyCb5ow2sEnI0qXr8I_fJ6KjP7sPtEJdwbE",
   authDomain: "netflix-13f0a.firebaseapp.com",
@@ -13,6 +14,7 @@ const firebaseConfig = {
   appId: "1:1000032494381:web:0e1c501a855bc84b35a9a4"
 };
 
+// @ts-ignore
 const app = initializeApp(firebaseConfig);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
